@@ -1,6 +1,6 @@
 function setBold() {
-    document.getElementById("content").innerHTML = "<b> bold </b>";
+    document.getElementById("content").innerHTML = "<b> Poop </b>";
 }
 function setNotBold() {
-    document.getElementById("content").innerHTML = "Not bold";
+    document.getElementById("content").innerHTML = "Not poop";
 }
