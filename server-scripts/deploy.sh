@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "What do you want to deploy? 'w' for web, 'j' for jstests"
+echo "What do you want to deploy? 'w' for web, 'j' for js-tests"
 
 WEB='w'
 JS='j'
@@ -17,5 +17,5 @@ fi
 
 cd ~/FattesSloPizzaMockup
 git pull
-sudo rm /var/www/html/*
-sudo cp ~/FattesSloPizzaMockup/$LOC/* /var/www/html/
+sudo rm -rf /var/www/html/*
+sudo cp -r ~/FattesSloPizzaMockup/$LOC/* /var/www/html/
