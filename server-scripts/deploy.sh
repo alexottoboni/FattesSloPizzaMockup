@@ -17,5 +17,5 @@ fi
 
 cd ~/FattesSloPizzaMockup
 git pull
-sudo rm /var/www/html/*
+sudo rm -rf /var/www/html/*
 sudo cp -r ~/FattesSloPizzaMockup/$LOC/* /var/www/html/
