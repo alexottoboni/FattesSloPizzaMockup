@@ -15,6 +15,12 @@ body {
     background-repeat: repeat-x;
 }
 
+#logo {
+    position: relative;
+    left: 240pt;
+    top: 60pt;
+}
+
 #wrapper {
     height: auto !important;
     min-height : 100%;
