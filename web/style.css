@@ -15,10 +15,47 @@ body {
     background-repeat: repeat-x;
 }
 
+button.option:focus {
+    outline: 0;
+    color: #FFFFFF;
+}
+
+button.option:hover {
+    color: #FF0000;
+
+}
+
+button.option {
+    background:none;
+    border:none;
+    font-family: "Impact";
+    font-size: 100%;
+    z-index: 110;
+}
+
+#menuSelector {
+    position: relative;
+    top: 30pt;
+    left: 220pt;
+    font-family: "Impact";
+    font-size: 300%;
+    z-index: 10;
+
+}
+
+#phoneNumber {
+    position: relative;
+    top: -15pt;
+    font-family: "Impact";
+    left: 60pt;
+    font-size: 200%;
+    font-weight: bold;
+}
+
 #logo {
     position: relative;
     left: 240pt;
-    top: 60pt;
+    top: 50pt;
 }
 
 #wrapper {
@@ -30,19 +67,14 @@ body {
 }
 
 #header {
+    position: relative;
     width: 100%;
 }
 
 #menu {
-    padding-bottom: 60px;
+    position: relative;
+    top: -140pt;
+    z-index: -1;
     background:#ffffff;
     background:rgba(255,255,255,0.5);
-}
-
-#footer {
-    width: 100%;
-    margin: 0px auto;
-    bottom: 0;
-    left: 0;
-    height: 60px;
 }
