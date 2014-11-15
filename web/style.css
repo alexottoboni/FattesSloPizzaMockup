@@ -33,7 +33,7 @@ button.option {
 
 #menuSelector {
     position: relative;
-    left: 30%;
+    right: -30%;
     top: 17pt;
     font-family: "Impact";
     font-size: 300%;
