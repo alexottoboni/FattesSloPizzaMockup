@@ -30,7 +30,6 @@ button.option {
     border:none;
     font-family: "Impact";
     font-size: 100%;
-    z-index: 110;
 }
 
 #menuSelector {
@@ -39,8 +38,6 @@ button.option {
     left: 220pt;
     font-family: "Impact";
     font-size: 300%;
-    z-index: 10;
-
 }
 
 #phoneNumber {
