@@ -7,6 +7,7 @@ html {
 
 body {
     height: 100%;
+    font-family: "futura-pt",sans-serif;
     margin: 0px auto;
     max-width: 960px;
     min-width: 750px;
@@ -27,22 +28,20 @@ button.option:hover {
 button.option {
     background:none;
     border:none;
-    font-family: "Impact";
     font-size: 100%;
 }
 
 #menuSelector {
     position: relative;
     top: 30pt;
-    left: 220pt;
+    left: 27%;
     font-family: "Impact";
     font-size: 300%;
 }
 
 #phoneNumber {
     position: relative;
-    top: -15pt;
-    font-family: "Impact";
+    top: -7pt;
     left: 60pt;
     font-size: 200%;
     font-weight: bold;
@@ -67,10 +66,17 @@ button.option {
     width: 100%;
 }
 
+#footer {
+    position: relative;
+    top: -40pt;
+    height: 40pt;
+    background:#0066cc
+}
+
 #menu {
     position: relative;
     top: -140pt;
+    padding: 10pt;
     z-index: -1;
-    background:#ffffff;
     background:rgba(255,255,255,0.5);
 }
