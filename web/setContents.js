@@ -1,6 +1,6 @@
 function setSubs() {
     var pathOfSubsLayout = "subs.html";
-    var contentsOfFile = Filehelper.readStringFromFileAtPath
+    var contentsOfFile = FileHelper.readStringFromFileAtPath
     (
         pathOfSubsLayout
     );
@@ -18,7 +18,7 @@ function setPizza() {
 
 function setSides() {
     var pathOfSidesLayout = "sides.html";
-    var contentsOfFile = Filehelper.readStringFromFileAtPath
+    var contentsOfFile = FileHelper.readStringFromFileAtPath
     (
         pathOfSidesLayout
     );
