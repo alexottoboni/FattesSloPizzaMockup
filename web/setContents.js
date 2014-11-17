@@ -1,5 +1,10 @@
 function setSubs() {
-    document.getElementById("menu").innerHTML = "Subs";
+    var pathOfSubsLayout = "subs.html";
+    var contentsOfFile = Filehelper.readStringFromFileAtPath
+    (
+        pathOfSubsLayout
+    );
+    document.getElementById("menu").innerHTML = contentsOfFile;
 }
 
 function setPizza() {
@@ -12,7 +17,12 @@ function setPizza() {
 }
 
 function setSides() {
-    document.getElementById("menu").innerHTML = "Sides";
+    var pathOfSidesLayout = "sides.html";
+    var contentsOfFile = Filehelper.readStringFromFileAtPath
+    (
+        pathOfSidesLayout
+    );
+    document.getElementById("menu").innerHTML = contentsOfFile;
 
 }
 
