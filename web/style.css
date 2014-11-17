@@ -73,6 +73,29 @@ button.option {
     background:#0066cc
 }
 
+#specials {
+    width: 100%;
+    font-size: 120%;
+}
+
+#meats {
+    left: 100pts;
+}
+
+#vegetables {
+    right: -100pts;;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+}
+
 #menu {
     position: relative;
     top: -140pt;
